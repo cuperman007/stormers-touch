@@ -1,0 +1,214 @@
+
+    h1 {
+      font-size: 3.6em;
+      font-family: 'FS Elliot Pro';
+      font-weight: 900;
+      font-style: normal;
+      padding-top:  0.9em;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      font-family: 'FS Elliot Pro';
+      font-weight: bold;
+      font-style: normal;
+    }
+
+    body {
+      font-size: 1em;
+      font-family: 'FS Elliot Pro';
+      font-weight: 300;
+      font-style: normal;
+      line-height: 2;
+      text-transform: none;
+      min-height: 40px;
+      color: #deedff;
+      background-color: #007CB6;
+    }
+
+    p
+    {
+      color: #232323;
+      line-height: 1.3em;
+      font-size: 1.2em;
+      font-weight: 600;
+    }
+
+    a{
+      text-decoration: none;
+      color: #F6D110;
+    }
+    a:hover{
+      text-decoration: underline;
+      color: #F6D110;
+    }
+
+    .dark-blue
+    {      
+      padding-top: 6em;
+      padding-bottom:6em;
+    }
+
+    .blue,
+    .pale {      
+      padding-top: 2em;
+      padding-bottom:3em;
+    }
+      
+    .dark-blue {
+      background-color: #000A39;
+      color: #fff;
+    }
+      .dark-blue h2 {
+        font-size: 3em;
+        font-family: 'FS Elliot Pro';
+        font-weight: 900;
+        font-style: normal;
+      }
+
+    .blue {
+      background-color: #007CB6;
+      color: #fff;
+    }
+
+
+    .pale a {
+      color: #007CB6;
+    }
+    .pale a:hover {
+      color: #007CB6;
+    }
+
+    .blue  p,    
+    .dark-blue p {
+      color: #fff;
+      font-size: 1.3em;
+      font-weight: 600;
+      padding-top: 0.7em;
+    }
+
+    .blue h3, 
+    .blue h4{
+      color: #F6D110;
+      font-size: 2em;
+      font-weight: 900;
+      padding-top: 0.7em;
+    }
+
+    .blue h4{
+      font-size: 1.3em;
+    }
+   
+    .pale {
+      background-color: #FFF;
+      color: #007CB6;
+    }
+
+      .pale h2
+      {      
+        color: #007CB6;
+        font-size: 3em;
+        font-weight: 900;
+        text-align: center;
+      }
+      
+      .pale h3
+      {      
+        color: #007CB6;
+        font-size: 1.5em;
+        font-weight: 600;
+        text-align: center;
+        padding:1em;
+      }
+      
+      .pale h4
+      {      
+        color: #007CB6;
+        font-size: 1.5em;
+        font-weight: 600;
+        padding-top: 0.7em;
+        text-align: center;
+        padding:1em;
+      }
+
+      
+    .navbar,
+    .jumbotron {
+      background-color: #000A39dd;
+      color: #deedff;
+      font-family: 'FS Elliot Pro';
+      font-weight: bold;
+      font-style: normal;
+    }
+
+    .navbar-nav > li > a{
+      text-shadow: none;
+      color: #F6D110;
+    }
+
+    .navbar-nav > li > a:hover{
+      text-shadow: none;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .how{
+      padding: 2em;
+    }
+
+    footer,
+    .footer {
+      text-shadow: none;
+      text-align: center;
+      font-size: 1em;
+      line-height: 1.2em;
+      padding-bottom: 1em;
+      font-family: 'FS Elliot Pro';
+      font-weight: 600;
+      font-style: normal;
+    }
+    
+    .hero {
+        background: url("../images/dive-large.jfif") no-repeat top ;
+        background-size: cover;
+    }
+
+    .hero > div.dark-blue{
+      background-color:#000A39dd
+    }
+
+    .honours {
+        background: url("../images/AdobeStock_293677159.jpeg") no-repeat center ;
+        background-size: cover;
+    }
+
+    .honours > div.blue{
+      background-color:#000A39dd
+    }
+
+    .training {
+        background: url("../images/AdobeStock_177731417.jpeg") no-repeat bottom ;
+        background-size: cover;
+    }
+
+    .training > div.blue{
+      background-color:#007CB6dd
+    }
+
+    .faq {
+        background: url("../images/dive-large.jfif") no-repeat center ;
+        background-size: cover;
+    }
+
+    .faq > div.blue{
+      background-color:#007CB6ee
+    }
+
+    .contact {
+        background: url("../images/lightning.png") no-repeat center ;
+        background-size: cover;
+    }
+
+    .contact > div.blue{
+      background-color:#000A39ee
+    }
