@@ -178,42 +178,32 @@ footer,
     background-size: cover;
 }
 
-.hero > div.team-primary{
-  background-color: var(--primary-color-transparent)
-}
 
 .honours {
     background: url("../images/AdobeStock_293677159.jpeg") no-repeat center ;
     background-size: cover;
 }
 
-.honours > div.team-secondary{
-  background-color:var(--primary-color-transparent)
-}
-
 .training {
-    background: url("../images/AdobeStock_177731417.jpeg") no-repeat bottom ;
+  background: url("../images/AdobeStock_295726135.jpeg") no-repeat center ;
     background-size: cover;
 }
 
-.training > div.team-secondary{
-  background-color:var(--secondary-color-transparent)
-}
 
 .faq {
-    background: url("../images/dive-large.jfif") no-repeat center ;
+    background: url("../images/lightning.png") no-repeat center ;
     background-size: cover;
-}
-
-.faq > div.team-secondary{
-  background-color:var(--secondary-color-transparent)
 }
 
 .contact {
-    background: url("../images/dive-large.jfif") no-repeat center ;
+  background: url("../images/AdobeStock_177731417.jpeg") no-repeat bottom ;
     background-size: cover;
 }
 
-.contact > div.team-primary{
-  background-color:var(--primary-color-transparent)
+.jumbotron-fluid > div.team-primary{
+  background-color: var(--primary-color-transparent)
+}
+
+.jumbotron-fluid > div.team-secondary{
+  background-color:var(--secondary-color-transparent)
 }
