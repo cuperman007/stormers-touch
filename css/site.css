@@ -3,6 +3,8 @@
   --primary-color-transparent: #000A39dd;
   --secondary-color: #007CB6;
   --secondary-color-transparent: #007CB6dd;
+  --tertiary-color: #F6D110;
+  --tertiary-color-transparent: #F6D110dd;
   --light-color: #fff;
   --link-color: #F6D110;
 }
@@ -66,12 +68,25 @@ a:hover{
 .team-primary {
   background-color: var(--primary-color);
   color: var(--light-color);
+  font-style: normal;
 }
+  
+  .team-primary h2,
+  .team-primary h3,
+  .team-primary h4 {
+    font-size: 1.5em;
+    font-weight: 900;
+    color: var(--tertiary-color);
+  }
+
   .team-primary h2 {
     font-size: 3em;
-    font-family: 'FS Elliot Pro';
-    font-weight: 900;
-    font-style: normal;
+  }
+  .team-primary h3 {
+    font-size: 2.2em;
+  }
+  .team-primary h4 {
+    font-size: 1.5em;
   }
 
 .team-secondary {
