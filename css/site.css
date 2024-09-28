@@ -194,7 +194,10 @@ footer,
 }
 
 
-.honours {
+.honours,
+.team-honours,
+.international-honours,
+.regional-honour {
     background: url("../images/AdobeStock_293677159.jpeg") no-repeat center ;
     background-size: cover;
 }
